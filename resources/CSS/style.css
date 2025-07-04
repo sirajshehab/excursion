@@ -1,37 +1,39 @@
-body{
+body {
   background-color: black;
   text-align: center;
+  font-family: "Verdana", sans-serif;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* HEADINGS */
-
-.header--main{
-    font-size: 50px;
-    font-weight: normal;
+.cta {
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 20px;
 }
 
-.header--secondery{
-    font-weight: 300;
-    font-size: 42px;
+.cta:hover {
+  background-color: white;
+  color: black;
 }
 
-.header--sub-header{
-    font-size: 21px;
-    color: gray;
+h1 {
+  font-size: 50px;
+  font-weight: normal;
 }
 
-/* LINKS */
-
-.link{
-    color: aquamarine;
-    font-size: 16px;
+h2 {
+  font-size: 42px;
+  font-weight: 300;
 }
 
-/* FOOTER */
-
-.copyright{
-    text-align: right;
-    color: gray;
+p {
+  font-size: 21px;
+  color: gray;
 }
+
+footer {
+  text-align: right;
+} 
